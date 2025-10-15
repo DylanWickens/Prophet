@@ -1,0 +1,468 @@
+<head>
+    <meta charset="utf-8">
+    <title>Prophet.Wickens.Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="reset" href="./reset.css">
+    <link rel="stylesheet" href="./stylesheet.css">
+
+    <link rel="icon" type="image/x-icon" href="./assets/website/prophet/favicon.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MorphSVGPlugin.min.js"></script>
+</head>
+
+<body>
+    <div class="slider-container">
+
+        <div class="cursor">
+            <button class="prev" onclick="prevSlide()">
+                <svg width="32" height="32" viewBox="0 0 16 16" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                    <path id="arrow"
+                        d="M7.34691 1.44116L8.5714 2.65204L4.31971 6.90373L14.9999 6.90373V8.67243L4.31971 8.67243L8.5714 12.9173L7.34691 14.135L1 7.78807L7.34691 1.44116Z"
+                        fill="#F1F1F1" />
+                    <path id="circle"
+                        d="M8,5 C6.34,5 5,6.34 5,8 C5,9.66 6.34,11 8,11 C9.66,11 11,9.66 11,8 C11,6.34 9.66,5 8,5 Z"
+                        fill="transparent" visibility="hidden" />
+                </svg>
+            </button>
+
+            <button class="next" onclick="nextSlide()">
+                <svg width="32" height="32" viewBox="0 0 16 16" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.34691 1.44116L8.5714 2.65204L4.31971 6.90373L14.9999 6.90373V8.67243L4.31971 8.67243L8.5714 12.9173L7.34691 14.135L1 7.78807L7.34691 1.44116Z"
+                        fill="#F1F1F1" />
+                </svg>
+            </button>
+        </div>
+
+        <section class="slider">
+            <div class="slides-wrapper">
+
+                <!--- *** Prophet Animation Cover *** -->
+                <div class="prophet-animation-container">
+                    <div class="slide prophet-container-padding">
+                        <div class="prophet-logo-wrapper">
+                            <div class="prophet-logo-container">
+                                <svg width="105px" height="13px" viewBox="0 0 105 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>Logo / Black</title>
+                                    <g id="prophet-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="prophet-logo-group" transform="translate(-42.000000, -24.000000)" fill="#0a0a0a">
+                                            <g id="Group" transform="translate(42.000000, 24.000000)">
+                                                <path id="p" class="hovered-prophet" d="M8.25495517,0.397366667 C11.1971276,0.397366667 12.6251276,2.09025556 12.6251276,4.21864444 C12.6251276,6.25964444 11.2963345,8.04208889 8.25495517,8.04208889 L8.25226928,8.0420011 L7.90715441,8.04133657 C7.87087152,8.0413115 7.83215547,8.04128893 7.79120306,8.04126873 L5.88992069,8.04127639 L5.79038303,8.04129957 L5.79038303,8.04129957 L3.69881353,8.04198092 C3.66387475,8.04199415 3.63142289,8.04200641 3.60165476,8.04201756 L3.38585172,8.04208889 C3.24898966,8.04208889 3.16535172,8.13885538 3.14658071,8.26416799 L3.14254138,8.31942222 L3.14254138,12.5870333 L0,12.5870333 L0,0.397366667 L8.25495517,0.397366667 Z M8.02323103,2.95475556 L3.14254138,2.95475556 L3.14254138,5.4847 L3.57172854,5.48533512 L3.62314086,5.48540463 L3.62314086,5.48540463 L4.04582771,5.48593191 C4.09081156,5.48598393 4.13701989,5.48603605 4.18434439,5.48608795 L4.79888341,5.4866779 C4.85340444,5.4867225 4.90860842,5.4867655 4.96438704,5.48680657 L7.03350934,5.48685584 L7.11391285,5.48676914 L7.11391285,5.48676914 L7.496774,5.48619061 C7.69136957,5.4858142 7.8691658,5.48532462 8.02323103,5.4847 C9.19343793,5.4847 9.47223103,4.69097778 9.47223103,4.21864444 C9.47223103,3.59031111 9.05802414,2.95475556 8.02323103,2.95475556 Z" id="Clip-599"></path>
+                                                <polygon id="t" class="hovered-prophet" id="Clip-602" points="104.734169 0.397005556 104.734169 2.94283889 99.7897552 2.94283889 99.7897552 12.5873944 96.6462724 12.5873944 96.6462724 2.94283889 91.7279276 2.94283889 91.7279276 0.397005556"></polygon>
+                                                <polygon id="e" class="hovered-prophet" id="Clip-605" points="76.594531 0.396788889 89.2133586 0.403288889 89.2133586 2.94262222 79.7307724 2.94262222 79.7307724 5.23712222 88.1944966 5.23712222 88.1944966 7.75695556 79.7264276 7.75695556 79.7264276 10.0377333 89.2184276 10.0377333 89.2184276 12.5871778 76.594531 12.5871778"></polygon>
+                                                <polygon polygon id="h" class="hovered-prophet" id="Clip-608" points="64.0250897 0.397077778 64.0250897 5.10452222 70.3547793 5.10452222 70.3547793 0.397077778 73.4946414 0.397077778 73.4946414 12.5874667 70.3620207 12.5874667 70.3620207 7.86268889 64.0417448 7.86268889 64.0417448 12.5874667 60.8801586 12.5874667 60.8801586 0.397077778"></polygon>
+                                                <path id="p2"class="hovered-prophet" d="M54.0009931,0.397366667 C56.9431655,0.397366667 58.3711655,2.09025556 58.3711655,4.21864444 C58.3711655,6.25964444 57.0423724,8.04208889 54.0009931,8.04208889 C54.0009931,8.0420287 53.9973791,8.04197186 53.990348,8.04191822 L53.6531923,8.04133657 C53.6169095,8.0413115 53.5781934,8.04128893 53.537241,8.04126873 L51.6359586,8.04127639 C51.5696195,8.04129144 51.5032089,8.04130732 51.4369236,8.0413239 L49.4448515,8.04198092 C49.4099127,8.04199415 49.3774608,8.04200641 49.3476927,8.04201756 L49.1318897,8.04208889 C48.9754759,8.04208889 48.8885793,8.16847778 48.8885793,8.31942222 L48.8885793,8.31942222 L48.8885793,12.5870333 L45.7458207,12.5870333 L45.7458207,0.397366667 L54.0009931,0.397366667 Z M53.769269,2.95475556 L48.8885793,2.95475556 L48.8885793,5.4847 L48.8885793,5.4847 L49.3177665,5.48533512 C49.3512215,5.48538075 49.3863343,5.48542785 49.4229964,5.4854761 L49.7918656,5.48593191 C49.8368495,5.48598393 49.8830578,5.48603605 49.9303823,5.48608795 L50.5449213,5.4866779 C50.5994424,5.4867225 50.6546463,5.4867655 50.710425,5.48680657 L52.7795473,5.48685584 C52.8335212,5.48680109 52.88677,5.4867403 52.9391855,5.48667311 L53.2428119,5.48619061 C53.4374075,5.4858142 53.6152037,5.48532462 53.769269,5.4847 C54.9394759,5.4847 55.218269,4.69097778 55.218269,4.21864444 C55.218269,3.59031111 54.8040621,2.95475556 53.769269,2.95475556 L53.769269,2.95475556 Z" id="Clip-611"></path>
+                                                <path id="o" class="hovered-prophet" d="M36.5162483,0 C40.0659724,0 43.2376966,2.35661111 43.2376966,6.49422222 C43.2376966,10.4729444 40.2361448,12.9819444 36.5162483,12.9819444 C32.4733862,12.9819444 29.7926276,10.2476111 29.7926276,6.49422222 C29.7926276,2.44616667 32.8166276,0 36.5162483,0 Z M36.5162483,2.73577778 C34.3822138,2.73577778 32.9433517,4.08777778 32.9433517,6.49422222 C32.9433517,8.762 34.2424552,10.2468889 36.5162483,10.2468889 C39.0043862,10.2468889 40.0862483,8.47527778 40.0862483,6.49422222 C40.0862483,4.00761111 38.5402138,2.73577778 36.5162483,2.73577778 Z" id="Clip-614"></path>
+                                                <path id="r" class="hovered-prophet" d="M23.365831,0.397366667 C26.3080034,0.397366667 27.7367276,2.09025556 27.7367276,4.21864444 C27.7367276,5.94331111 26.7873828,7.48381111 24.6576931,7.91931111 L24.6576931,7.91931111 L28.1263138,12.5870333 L24.8235207,12.5870333 C24.6374172,12.5870333 24.5302448,12.5155333 24.383969,12.3176444 C23.9046724,11.665973 21.7838291,8.78770404 21.4659283,8.359793 L21.4287621,8.31003333 C21.2672793,8.09986667 21.1905207,8.04281111 20.9392448,8.04281111 L20.9392448,8.04281111 L18.4974517,8.04281111 C18.3410379,8.04281111 18.2541414,8.16847778 18.2541414,8.31942222 L18.2541414,8.31942222 L18.2541414,12.5870333 L15.1113828,12.5870333 L15.1113828,0.397366667 L23.365831,0.397366667 Z M23.2275207,2.95475556 L18.346831,2.95475556 L18.346831,5.4847 L18.346831,5.4847 L18.7760182,5.48533512 C18.8094732,5.48538075 18.844586,5.48542785 18.8812482,5.4854761 L19.2501174,5.48593191 C19.2951012,5.48598393 19.3413095,5.48603605 19.388634,5.48608795 L20.0031731,5.4866779 C20.0576941,5.4867225 20.1128981,5.4867655 20.1686767,5.48680657 L22.237799,5.48685584 C22.2917729,5.48680109 22.3450217,5.4867403 22.3974372,5.48667311 L22.7010637,5.48619061 C22.8956592,5.4858142 23.0734555,5.48532462 23.2275207,5.4847 C24.3977276,5.4847 24.6765207,4.69097778 24.6765207,4.21864444 C24.6765207,3.59031111 24.2623138,2.95475556 23.2275207,2.95475556 L23.2275207,2.95475556 Z" id="Clip-617"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-container">
+                <div class="slide info-container-padding">
+                    <div class="info-wrapper">
+                        <div class="info-content">
+                            <h4 class="inter-display-reg-sml">
+                                Hi Prophet. I’m Dylan, a recent Falmouth grad. My work lives between design and code, I treasure the problem-solving approach from programming when combined with design ideas. Using code as a tool to generate visual solutions, build out interactive design/motion ideas and custom software never gets old. After finishing my last internship in Bath, I have decided it would be a good opportunity to pursue opportunities in London. I’m writing to apply for an internship with Prophet. Prophet’s ethos of making deliberate steps forward to grow their clients and society is right up my alley of using the right technology to support ideas, not just chasing more for the sake of it.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- *** Bosena *** -->
+            <div class="img-container">
+                <img class="slide" src="./assets/bosena/bosena-logo-4k.png" alt="Bosnea cover">
+            </div>
+
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1121822126?h=989a59d28b&amp;badge=0&amp;autopause=1&amp;player_id=0&amp;app_id=58479&amp;muted=1&amp;loop=1&amp;controls=0&amp;"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="Bosena Logo Animation">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="info-container">
+                <div class="slide info-container-padding">
+                    <div class="info-wrapper">
+                        <div class="info-content" id="bosena-info">
+                            <h4 class="inter-display-reg">
+                                We designed an identity for the Cornish production company Bosena, whose work
+                                explores the craft, and appreciation of film as a cultural act. The identity itself
+                                is heavily inspired by the intricacies of Celtic weaving and knotwork, aspiring to
+                                create a cohesive visual that not only reinforces Bosena's holistic approach to the
+                                art of film, but encourages traditional cultural iconography; a reminder of the
+                                'true' origins of the company itself.
+                            </h4>
+                            <p class="info-credits">Collaboration with Amelia Dowdeswell</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img class="slide" src="./assets/bosena/mary-woodvine-4k.png" alt="Mary Woodvine Dithered">
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1122018446?h=67c6aad850&amp;badge=0&amp;autopause=1&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;muted=1&amp;loop=1"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="Bosena-Enysmen-Website">
+                    </iframe>
+                </div>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+            <img class="slide" src="./assets/bosena/socials-4k.png" alt="Instagram Post">
+            <img class="slide" src="./assets/bosena/clapper-4k.png" alt="Bosnea Clapper">
+            <img class="slide" src="./assets/bosena/water-poster-bosena.png" alt="Poster on old paper by docks">
+            <img class="slide" src="./assets/bosena/leaflet@3x.png" alt="Bosnea leaflet">
+
+            <!-- *** EmergentX *** -->
+            <img class="slide" src="./assets/emergentx/ex-cover.png" alt="Emergentx cover">
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1072304428?h=e94c011f19&amp;title=0&amp;byline=0&amp;portrait=0&amp;controls=0&amp;loop=1&amp;badge=0&amp;autopause=1&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="EX_ERC-7578_Watch_Animation">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="info-container">
+                <div class="slide info-container-padding">
+                    <div class="info-wrapper">
+                        <div class="info-content">
+                            <h4 class="inter-display-reg">
+                                Working with EmergentX's design team we created a motion video
+                                informing people about their new ERC-7578 blockchain technology. We crafted a
+                                dynamic
+                                suite
+                                of motion graphics that conceptually explore the intricate intersection between
+                                blockchain technology, asset tokenisation, and real-world application. I coded a
+                                Processing
+                                script that would allow us to take image data and explode the tokenised assets.
+                            </h4>
+                            <p class="info-credits">Creative Direction by Kevin King<br>Motion
+                                Design by Oliver
+                                Brooks<br>Creative Coding by Dylan Wickens</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1072304455?h=5d9fb659cf&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;controls=0&amp;autopause=1&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="EX_ERC-7578_Reveal">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1122642889?h=ab9c7234b5&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;controls=0&amp;loop=1&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        allowfullscreen referrerpolicy="strict-origin-when-cross-origin"
+                        title="EX_ERC-7578_Savea_Animation">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1072304493?h=37b139826f&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=1&amp;controls=0&amp;loop=1&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="Exploding Car">
+                    </iframe>
+                </div>
+            </div>
+
+            <img id="emergentx-socials" class="slide" src="./assets/emergentx/emergentx-socials-4k.png"
+                alt="ERC-7578 Instagram Post">
+
+            <!-- *** Falmouth Gradshow-->
+            <div class="img-container">
+                <img class="slide" src="./assets/Gradshow/Gradshow Cover.png" alt="Gradshow cover">
+            </div>
+
+            <div class="info-container">
+                <div class="slide info-container-padding">
+                    <div class="info-wrapper">
+                        <div class="info-content">
+                            <h4 class="inter-display-reg">
+                                Working with EmergentX's design team we created a motion video
+                                informing people about their new ERC-7578 blockchain technology. We crafted a
+                                dynamic
+                                suite
+                                of motion graphics that conceptually explore the intricate intersection between
+                                blockchain technology, asset tokenisation, and real-world application. I coded a
+                                Processing
+                                script that would allow us to take image data and explode the tokenised assets.
+                            </h4>
+                            <p class="info-credits"><a href="https://www.wickens.design/GradShowPosterGen/GradShow.html"
+                                    style="pointer-events: auto;" target="_blank">-> Play with the tool here</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1076188869?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;loop=1&amp;muted=1&amp;controls=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="Tool Preview">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1076189055?h=277ec4018e&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;loop=1&amp;muted=1&amp;controls=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="poster3"></iframe>
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1076189081?h=0d2087e9e5&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;loop=1&amp;muted=1&amp;controls=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="poster4">
+                    </iframe>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <div class="iframe-container">
+                    <iframe class="slide"
+                        src="https://player.vimeo.com/video/1076188806?h=f01228f854&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;loop=1&amp;muted=1&amp;controls=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="00. Main"></iframe>
+                </div>
+            </div>
+
+            <!-- CV Summary -->
+            <div class="cv-container">
+                <div class="slide cv-container-padding">
+                    <div class="cv-wrapper">
+                        <div class="cv-content">
+
+                            <div class="cv-bullet-container">
+                                <div class="cv-row">
+                                    <div class="cv-catagory-container">
+
+                                        <div class="two-column-container">
+                                            <div class="cv-column">
+                                                <div class="title-container">
+                                                    <p class="catagory-title">Freelance</p>
+                                                </div>
+                                                <a class="cv-link" href="https://www.instagram.com/bosenafylm/"
+                                                    target="_blank" id="bosena-link">
+                                                    <p class="arrow">&rarr;</p>
+                                                    <p>Bosena</p>
+                                                </a>
+                                                <a class="cv-link" href="https://www.emergentx.org/" target="_blank"
+                                                    id="emergentx-link">
+                                                    <p class="arrow">&rarr;</p>
+                                                    <p>EmergentX</p>
+                                                </a>
+                                                <a class="cv-link" href="https://www.thirdhorizonstudios.com/"
+                                                    target="_blank" id="third-horizon-link">
+                                                    <p class="arrow">&rarr;</p>
+                                                    <p>Third Horizon</p>
+                                                </a>
+                                                <a class="cv-link" href="https://www.ward.studio/" target="_blank"
+                                                    id="craig-ward-link">
+                                                    <p class="arrow">&rarr;</p>
+                                                    <p>Craig Ward</p>
+                                                </a>
+                                            </div>
+
+                                            <div class="cv-column">
+                                                <div class="title-container">
+                                                    <p class="catagory-title">Internships</p>
+                                                </div>
+                                                <a class="cv-link" href="https://www.testbed.work/" target="_blank"
+                                                    id="testbed-link">
+                                                    <p class="arrow">&rarr;</p>
+                                                    <p>Testbed</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cv-catagory-container">
+
+                                        <div class="one-column-container">
+                                            <div class="cv-column">
+                                                <div class="title-container">
+                                                    <p class="catagory-title">Education</p>
+                                                </div>
+                                                <div class="no-wrap">
+                                                    <p>1st Class BA(Hons) Graphic Design Falmouth</p>
+                                                </div>
+                                                <div class="cv-text no-wrap">
+                                                    <p>RCA Typography Summer Course 2024</p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cv-row">
+                                    <div class="cv-catagory-container">
+
+                                        <div class="two-column-container">
+                                            <div class="cv-column">
+                                                <div class="title-container">
+                                                    <p class="catagory-title">Skills</p>
+                                                </div>
+                                                <div class="cv-text">
+                                                    <p>Digital Design</p>
+                                                    <p>Creative Coding</p>
+                                                    <p>Motion</p>
+                                                    <p>Typography</p>
+                                                    <p>Branding</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="cv-column">
+                                                <div class="title-container">
+                                                    <p class="catagory-title" style="opacity: 0;">placeholder</p>
+                                                </div>
+                                                <div class="cv-text">
+                                                    <p>Live Prototyping</p>
+                                                    <p>Collaboration</p>
+                                                    <p>Design Sprints</p>
+                                                    <p>Web Development</p>
+                                                    <p>Nice Flat Whites</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cv-catagory-container">
+
+                                        <div class="two-column-container">
+                                            <div class="cv-column">
+                                                <div class="title-container">
+                                                    <p class="catagory-title">Technologies</p>
+                                                </div>
+                                                <div class="cv-text">
+                                                    <p>Processing</p>
+                                                    <p>p5js</p>
+                                                    <p>JavaScript</p>
+                                                    <p>Figma</p>
+                                                    <p>InDesign</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="cv-column">
+                                                <div class="title-container">
+                                                    <p class="catagory-title" style="opacity: 0;">placeholder</p>
+                                                </div>
+                                                <div class="cv-text">
+                                                    <p>After Effects</p>
+                                                    <p>Illustrator</p>
+                                                    <p>Photoshop</p>
+                                                    <p>Light Ardudino C++</p>
+                                                    <p>SwiftUI</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="cv-more-details" id="bosena-details">
+                                <p class="inter-medium-white">Working with Amelia Dowdeswell we designed an identity
+                                    for the Cornish production
+                                    company Bosena, whose work explores the craft, and appreciation of film as a
+                                    cultural act. The identity itself is heavily inspired by the intricacies of
+                                    Celtic weaving and knotwork, aspiring to create a cohesive visual that not only
+                                    reinforces Bosena's holistic approach to the art of film, but encourages
+                                    traditional cultural iconography; a reminder of the 'true' origins of the
+                                    company itself.</p>
+                            </div>
+                            <div class="cv-more-details" id="ex-details">
+                                <p class="inter-medium-white">Working with EmergentX's design team we created a
+                                    motion video informing people about their new ERC-7578 blockchain
+                                    technology. We crafted a dynamic suite of motion graphics that conceptually
+                                    explore the intricate intersection between blockchain technology, asset
+                                    tokenisation, and real-world application.</p>
+                            </div>
+                            <div class="cv-more-details" id="third-horizon-details">
+                                <p class="inter-medium-white">Starting with a 3d Rhino render; I created a series of
+                                    simple and precise technical drawings of a Polaroid camera for Matthew Jones
+                                    which he wanted to use for the main illustration style on the upcoming camera
+                                    packaging.
+                                </p>
+                            </div>
+                            <div class="cv-more-details" id="craig-ward-details">
+                                <p class="inter-medium-white">Over summer I worked with Craig to help him organise
+                                    the json files for his upcoming release 'Composit' an app encouraging discovery
+                                    though colour and the eclectic nature of design. Additionally, I worked on
+                                    designing, testing and providing feedback on the onboarding and the app's
+                                    workflow.</p>
+                            </div>
+                            <div class="cv-more-details" id="testbed-details">
+                                <p class="inter-medium-white">It was a real treat to contribute to Rob Peart's
+                                    creative practice, Testbed. I was able to work across multiple projects and
+                                    areas from creating GUI workflows, bespoke design tools and digital layouts.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/MorphSVGPlugin.min.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="./javascript/slideshow.js"></script>
+
+</body>
